@@ -3,9 +3,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  color: #000000;
-
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px; 
 }
 
@@ -14,8 +12,82 @@ body {
   font-size: 14px;
 }
 
-#header >h1 {
-  font-size: 2.2rem;  
+.intro-home {
+  float: center;
+  font-size: 2.5em; 
+  transition: .6s ease;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: rgb(206, 169, 169) ;
+  animation: 4s 1;
+  border: green dashed 2px;
+}
+
+
+.banner-area {
+  background: url(img/foto3.jpg);
+  align-items: center;
+  
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: flex;
+  color: indianred;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-area:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: -1;
+
+}
+.banner-area h2 {
+  text-align: center;
+  animation: 3s 1;
+  font-size: 3em;
+  padding-top: 10%;
+  margin-bottom: 20vmin;
+}
+
+.banner-area a{
+  border: 1px solid firebrick;  
+  margin-top: 2%;
+  transition: .6s ease;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: gainsboro;
+  animation: 3s 1;
+  background: indianred; 
+  border-radius: 20px;
+}
+
+@keyframes {
+  0% {
+      transition: scale(0);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+.intro-text h1 a{
+  font-size: 2.2em; 
+  transition: .6s ease;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: indianred;
+  animation: 4s 1; 
 }
 
 .container {
@@ -30,13 +102,12 @@ header {
   top: 0;
   justify-content: center;
   align-items: center;  
-
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   height: 100px;
   padding: 0 2%;
-  border-bottom: 1px solid rgb(126, 108, 108);
+  border-bottom: 2px solid green;
 }
 
 .info {
@@ -99,7 +170,7 @@ header {
   border-radius: 30px;
   padding: 8px 16px;
   font-weight: bold;
-  color: darkgoldenrod;
+  color: firebrick;
 }
 
 .card__description--name {
@@ -115,16 +186,19 @@ header {
   border-radius: 30px;
   padding: 8px 16px;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
-  color: darkslateblue;
+  color: midnightblue;
 }
 
+
 footer {
-  margin-top: 32px;
+  margin-top: 1%;
   padding: 16px 12px;
-  border-top: 1px solid rgba(22, 21, 21, 0.18);
+  border-top: 1px solid rgba(32, 30, 30, 0.281);
   text-align: center;
-  font-size: 14px;
+  font-size: 0.8em;
   justify-content: center;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
   
 }
 
@@ -133,3 +207,4 @@ footer {
   align-items: center;  
   cursor: pointer;
 }
+
