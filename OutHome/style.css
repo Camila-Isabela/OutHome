@@ -73,12 +73,12 @@ body {
   border-radius: 20px;
 }
 
-@keyframes {
+@keyframes text-animation {
   0% {
       transition: scale(0);
   }
   100% {
-      transform: scale(1);
+      transform:  scale(1);
   }
 }
 .intro-text h1 a{
