@@ -1,6 +1,8 @@
 # AirBnB-GamaAcademy
 ## Desafio da 9ª semana do Bootcamp Gama Academy
 
+https://circleci.com/docs/assets/img/docs/svg-passed.png
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ef938c55-b5e4-4a81-a159-834b21cd828e/deploy-status)](https://app.netlify.com/sites/unruffled-villani-6f2141/deploys)
 
 Hellooo!Chegou a hora de mais uma atividade prática -UHUUUL
