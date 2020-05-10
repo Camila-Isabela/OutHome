@@ -1,0 +1,19 @@
+/* #############################################   GLOBAL   ############################################### */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    height: 100%;
+    background: rgb(49, 82, 82);
+}

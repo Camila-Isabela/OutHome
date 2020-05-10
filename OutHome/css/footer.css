@@ -1,0 +1,25 @@
+/*##############################################      FOOTER      ################################################# */
+
+
+footer {
+    padding: 16px 12px;
+    border-top: 1px solid rgba(32, 30, 30, 0.281);
+    text-align: center;
+    font-size: 0.8em;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+.footer-rooms {
+    margin-top: 1%;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.icons-footer {
+    margin-top: 16px;
+    align-items: center;
+    cursor: pointer;
+}
