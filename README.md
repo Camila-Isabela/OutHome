@@ -1,9 +1,9 @@
 # AirBnB-GamaAcademy
 ## Desafio da 9ª semana do Bootcamp Gama Academy
 
-https://circleci.com/docs/assets/img/docs/svg-passed.png
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef938c55-b5e4-4a81-a159-834b21cd828e/deploy-status)](https://app.netlify.com/sites/unruffled-villani-6f2141/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89ebee94-e522-4ba6-b5c0-c65fcc3a84f3/deploy-status)](https://app.netlify.com/sites/outhome-camila-isabela/deploys)
 
 Hellooo!Chegou a hora de mais uma atividade prática -UHUUUL
 
